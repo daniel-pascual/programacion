@@ -1,0 +1,17 @@
+#include<stdio.h>
+// primer problema
+int main(){
+
+        int n,i,j;
+        printf("ingresa el valor maximo ");
+        scanf("%i",&n);
+        for(i=1;i<=n;i++){
+                for(j=0;j<i;j++)
+                        printf("%d ",j+1);
+                for(j=i-1;j>0;j--)
+                        printf("%d ",j);
+                printf("\n");
+        }
+
+                return 0;
+        }
